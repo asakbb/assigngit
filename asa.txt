@@ -13,6 +13,7 @@ fi
 
 # If the number of arguments is correct, sort the numbers in ascending order and write them to a file
 echo -e "$1\n$2\n$3" | sort -n > numbers.txt
+
 (2) Write A shell script that takes a directory as a command line arguments and writes the number of files and number of subfolders in a file called accounts.txt
 #!/bin/bash
 
